@@ -3,24 +3,20 @@ body {
     position: relative;
     width: 375px;
     height: 1447px;
-
     background-color: #FF6600;
 }
 
 h1 {
-    position: absolute;
     width: 375px;
     height: 25px;
     left: 0px;
     top: 146px;
-
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
     line-height: 31px;
     text-align: center;
-
     color: #000000;
 }
 
