@@ -8,6 +8,9 @@ body.page_producteur {
 body.page_moteur {
     background-color:#9A9A9F;
 }
+body.page_lien {
+    background-color: #001A5B;
+}
 
 /***********************************
             entête
@@ -27,14 +30,15 @@ header nav div.menu {
 header nav div  {
     display: inline-block;
 }
-.iconavion .page_producteur, .page_type .iconavion, .page_moteur .iconavion {
+.iconavion .page_producteur, .page_type .iconavion, .page_moteur .iconavion, .page_lien .iconavion {
     margin-right: auto;
     margin-left: auto;
     display: block;
 }
-.page_producteur .menu, .page_type .menu, .page_moteur .menu {
+.page_producteur .menu, .page_type .menu, .page_moteur .menu, .page_lien .menu {
     position: absolute;
 }
+
 
 /***********************************
          contenu principal
@@ -56,6 +60,10 @@ h1, .histoire {
     font-size: 25px;
     font-weight: bold;
 }
+.page_lien h1, .page_lien h2 {
+    color:#FFFFFF;
+    text-align: center;
+}
 
 p {
     font-family: Lato, sans-serif;
@@ -68,7 +76,7 @@ p {
 .intro {
     font-weight: bold;
 }
-.page_producteur img {
+.page_producteur img, .fr24, .planespotters, .jetphotos, iframe {
     margin-right: auto;
     margin-left: auto;
     display: block;
@@ -105,4 +113,8 @@ footer div {
     font-family: lato, sans-serif;
     font-size: 20px;
     padding : 0% 0% 5% 0%;
+    color: #FFFFFF;
+}
+.instagram {
+    padding : 0% 0% 0% 5%;
 }
