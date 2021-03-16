@@ -2,20 +2,24 @@
 body {
     background-color: #FF6600;
 }
+body.page_producteur {
+    background-color:#9A9A9F;
+;
+}
 /***********************************
             entête
 ***********************************/
 div.menu img {
-    height: 100px;
+    height: 50px;
 }
 
-header {
+header{
     margin-right: auto;
     margin-left: auto;
     display: block;
 }
 
-header nav div.iconavion {
+header nav div.iconavion{
     display: block;
     text-align: center;
 }
@@ -26,49 +30,46 @@ header nav div.menu {
 header nav div  {
     display: inline-block;
 }
+.page_producteur .iconavion {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
 
 
 /***********************************
          contenu principal
 ***********************************/
 
-h1 {
+h1, .histoire {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 375px;
-    height: 25px;
-    left: 0px;
-    top: 146px;
-    font-family: Source Sans Pro;
+    font-family: Source Sans Pro, sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 25px;
     line-height: 31px;
     color: #000000;
-
 }
-
-.histoire {
-    width: 372px;
-    height: 25px;
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 31px;
+.page_producteur h1 {
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    color: #000000;
 }
+.page_producteur .a320neo {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
 p {
-    font-family: Lato;
+    font-family: Lato, sans-serif;
     font-style: normal;
-    font-weight: normal;
     font-size: 22px;
-    line-height: 20px;
+    line-height: 30px;
     color: #FFFFFF;
+}
+.intro {
+    font-weight: bold;
 }
 
 /***********************************
@@ -78,4 +79,8 @@ footer {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+footer div {
+    font-family: lato, sans-serif;
+    font-size: 20px;
 }
