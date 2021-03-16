@@ -5,6 +5,9 @@ body {
 body.page_producteur {
     background-color:#9A9A9F;
 }
+body.page_moteur {
+    background-color:#9A9A9F;
+}
 
 /***********************************
             entête
@@ -24,12 +27,12 @@ header nav div.menu {
 header nav div  {
     display: inline-block;
 }
-.iconavion .page_producteur, .page_type .iconavion {
+.iconavion .page_producteur, .page_type .iconavion, .page_moteur .iconavion {
     margin-right: auto;
     margin-left: auto;
     display: block;
 }
-.page_producteur .menu, .page_type .menu {
+.page_producteur .menu, .page_type .menu, .page_moteur .menu {
     position: absolute;
 }
 
@@ -48,9 +51,10 @@ h1, .histoire {
     line-height: 31px;
     color: #000000;
 }
-.page_producteur h1, .page_type h1 {
+.page_producteur h1, .page_type h1, .page_moteur h1 {
     text-align: center;
     font-size: 25px;
+    font-weight: bold;
 }
 
 p {
@@ -78,6 +82,16 @@ p {
     font-size: 20px;
     color: #FFFFFF;
 }
+.page_moteur ul {
+    list-style-type: none;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 0% 0% 0% 0%;
+}
 
 /***********************************
           pied de page
@@ -90,4 +104,5 @@ footer {
 footer div {
     font-family: lato, sans-serif;
     font-size: 20px;
+    padding : 0% 0% 5% 0%;
 }
