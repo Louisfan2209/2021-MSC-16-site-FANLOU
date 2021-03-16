@@ -4,19 +4,13 @@ body {
 }
 body.page_producteur {
     background-color:#9A9A9F;
-;
 }
+
 /***********************************
             entête
 ***********************************/
 div.menu img {
     height: 50px;
-}
-
-header{
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
 }
 
 header nav div.iconavion{
@@ -30,10 +24,13 @@ header nav div.menu {
 header nav div  {
     display: inline-block;
 }
-.page_producteur .iconavion {
+.iconavion .page_producteur  {
     margin-right: auto;
     margin-left: auto;
     display: block;
+}
+.page_producteur .menu {
+    position: absolute;
 }
 
 
@@ -54,22 +51,24 @@ h1, .histoire {
 }
 .page_producteur h1 {
     text-align: center;
-}
-.page_producteur .a320neo {
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
+    font-size: 25px;
 }
 
-p {
+p, .page_producteur p {
     font-family: Lato, sans-serif;
     font-style: normal;
     font-size: 22px;
     line-height: 30px;
     color: #FFFFFF;
+    padding: 0% 5% 0% 5%;
 }
 .intro {
     font-weight: bold;
+}
+.page_producteur img {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
 
 /***********************************
