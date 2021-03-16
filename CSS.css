@@ -24,15 +24,14 @@ header nav div.menu {
 header nav div  {
     display: inline-block;
 }
-.iconavion .page_producteur  {
+.iconavion .page_producteur, .page_type .iconavion {
     margin-right: auto;
     margin-left: auto;
     display: block;
 }
-.page_producteur .menu {
+.page_producteur .menu, .page_type .menu {
     position: absolute;
 }
-
 
 /***********************************
          contenu principal
@@ -49,12 +48,12 @@ h1, .histoire {
     line-height: 31px;
     color: #000000;
 }
-.page_producteur h1 {
+.page_producteur h1, .page_type h1 {
     text-align: center;
     font-size: 25px;
 }
 
-p, .page_producteur p {
+p {
     font-family: Lato, sans-serif;
     font-style: normal;
     font-size: 22px;
@@ -69,6 +68,15 @@ p, .page_producteur p {
     margin-right: auto;
     margin-left: auto;
     display: block;
+}
+.page_type table , table tr , table tr td {
+    border: 1px solid #FFFFFF;
+    border-collapse: collapse;
+}
+.page_type table {
+    margin: 0% 10% 0% 10%;
+    font-size: 20px;
+    color: #FFFFFF;
 }
 
 /***********************************
