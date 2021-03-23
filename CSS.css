@@ -103,13 +103,16 @@ p {
     color: #FFFFFF;
     padding: 0% 0% 0% 0%;
 }
-.page_menu ul {
-    list-style-type: none;
-    list-style-image: url("images/iconavion.png");
-}
+
 .page_menu li a {
     text-decoration: none;
 }
+.page_menu ul {
+    list-style-type: none;
+    list-style-image: url("images/iconavion30height.png");
+    margin: 0% 10% 0% 10%;
+}
+
 
 /***********************************
           pied de page
