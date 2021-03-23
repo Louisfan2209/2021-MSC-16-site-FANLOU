@@ -1,21 +1,38 @@
 /* Écrans moyens >= 481px */
 @media only screen and (min-width: 480px) {
     p {
-        font-size: 15px;
-        line-height: 15px;
+        font-size: 20px;
+        line-height: 25px;
         padding: 0% 2% 0% 2%;
         width: 100%;
     }
 
-    .page_producteur .a320neo {
+    .page_producteur .a320neo, .page_producteur .logo {
         width: 50%;
+    }
+
+    .page_producteur .sectionavion {
+        width: 45%;
+    }
+
+    .page_producteur img, .page_producteur section {
+        display: inline-block;
+        vertical-align: middle;
         margin-left: unset;
         margin-right: unset;
     }
-    .page_producteur .introduction {
-        width: 40%;
+
+    .page_producteur .iconavion {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
     }
-    .page_producteur .a320neo, .page_producteur .introduction {
-        display: inline-block;
+
+    .page_producteur .train {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        width: 100%;
     }
+
 }
