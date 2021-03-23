@@ -2,7 +2,20 @@
 @media only screen and (min-width: 480px) {
     p {
         font-size: 15px;
-        line-height: 20px;
+        line-height: 15px;
         padding: 0% 2% 0% 2%;
+        width: 100%;
+    }
+
+    .page_producteur .a320neo {
+        width: 50%;
+        margin-left: unset;
+        margin-right: unset;
+    }
+    .page_producteur .introduction {
+        width: 40%;
+    }
+    .page_producteur .a320neo, .page_producteur .introduction {
+        display: inline-block;
     }
 }
