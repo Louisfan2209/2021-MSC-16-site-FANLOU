@@ -7,22 +7,22 @@
         width: 100%;
     }
 
-    .page_producteur .a320neo, .page_producteur .logo, .page_type .avion {
+    .page_producteur .a320neo, .page_producteur .logo, .page_type .avion, .page_moteur .moteur {
         width: 50%;
     }
 
-    .page_producteur .sectionavion, .page_type .sectiontype {
+    .page_producteur .sectionavion, .page_type .sectiontype, .page_moteur .sectionmoteur {
         width: 45%;
     }
 
-    .page_producteur img, .page_producteur section, .page_type img, .page_type section {
+    .page_producteur img, .page_producteur section, .page_type img, .page_type section, .page_moteur img, .page_moteur section, .page_moteur ul {
         display: inline-block;
         vertical-align: middle;
         margin-left: unset;
         margin-right: unset;
     }
 
-    .page_producteur .iconavion, .page_type .iconavion {
+    .page_producteur .iconavion, .page_type .iconavion, .page_moteur .iconavion {
         margin-right: auto;
         margin-left: auto;
         display: block;
@@ -34,17 +34,19 @@
         display: block;
         width: 100%;
     }
-    .page_type .intro {
+    .page_type .intro, .page_moteur .intromoteur {
         text-align: center;
         display: block;
     }
-    .page_type footer div {
+    .page_type footer div, .page_moteur footer div {
         display: block;
         padding : 5% 0% 5% 0%;
     }
     .page_type table {
         font-size: 25px;
     }
-
+    .page_moteur ul li {
+        padding : 5% 0% 5% 0%;
+    }
 
 }
