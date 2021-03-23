@@ -112,6 +112,10 @@ p {
     list-style-image: url("images/iconavion30height.png");
     margin: 0% 10% 0% 10%;
 }
+ iframe {
+     width: 100%;
+     font-size: 12px;
+ }
 
 
 /***********************************
