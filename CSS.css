@@ -134,6 +134,10 @@ p {
 
 .page_menu li {
     padding: 0% 0% 0% 10%;
+
+}
+.page_menu li a {
+    color: black;
 }
 
  iframe {

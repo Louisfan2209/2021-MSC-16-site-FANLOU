@@ -48,5 +48,19 @@
     .page_moteur ul li {
         padding : 5% 0% 5% 0%;
     }
+    .page_lien .introlien {
+        text-align: center;
+        font-weight: bold;
+    }
+    .page_lien iframe {
+        height: 100%;
+        width: 75%;
+        max-width: 300px;
+        max-height: 200px;
+    }
+    .page_lien .instagram, .page_lien .twitter, .page_lien .youtube {
+        display: inline-block;
+        width: 30%;
+    }
 
 }
