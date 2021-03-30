@@ -62,5 +62,9 @@
         display: inline-block;
         width: 30%;
     }
+    .page_type table {
+        margin-right: auto;
+        margin-left: auto;
+    }
 
 }

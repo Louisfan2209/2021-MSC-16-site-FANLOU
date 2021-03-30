@@ -33,7 +33,7 @@ header nav div.menu {
 header nav div  {
     display: inline-block;
 }
-.iconavion .page_producteur, .page_type .iconavion, .page_moteur .iconavion, .page_lien .iconavion, .page_menu .iconavion {
+.iconavion {
     margin-right: auto;
     margin-left: auto;
     display: block;
