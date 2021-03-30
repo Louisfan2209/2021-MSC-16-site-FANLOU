@@ -173,4 +173,8 @@ footer div {
 .page_menu footer div {
     line-height: 40px;
 }
+footer div a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
 

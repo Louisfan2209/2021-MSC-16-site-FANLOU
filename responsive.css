@@ -59,8 +59,10 @@
         max-height: 200px;
     }
     .page_lien .instagram, .page_lien .twitter, .page_lien .youtube {
-        display: inline-block;
-        width: 30%;
+
+        width: 20%;
+        margin-right: auto;
+        margin-left: auto;
     }
     .page_type table {
         margin-right: auto;
