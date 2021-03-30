@@ -177,4 +177,14 @@ footer div a {
     color: #FFFFFF;
     text-decoration: none;
 }
+.retourenhautpagemenu {
+    color: black;
+}
+.fleche {
+    font-size: 50px;
+}
+.flechenoir {
+    font-size: 50px;
+    color: black;
+}
 
