@@ -146,6 +146,10 @@ p {
      height: 100%;
  }
 
+.instagram, .twitter, .youtube {
+    padding : 0% 0% 0% 5%;
+}
+
 /***********************************
           pied de page
 ***********************************/
@@ -162,10 +166,6 @@ footer div {
     color: #FFFFFF;
 }
 
-.instagram {
-    padding : 0% 0% 0% 5%;
-}
-
 .prenomnom {
     color: #000000;
 }
@@ -173,18 +173,20 @@ footer div {
 .page_menu footer div {
     line-height: 40px;
 }
-footer div a {
-    color: #FFFFFF;
-    text-decoration: none;
-}
+
 .retourenhautpagemenu {
     color: black;
+    text-decoration: none
 }
-.fleche {
+.fleche, .flechenoir, .flecheblanche {
     font-size: 50px;
 }
-.flechenoir {
-    font-size: 50px;
-    color: black;
+
+footer div a:visited, footer div a {
+    color: yellow;
+}
+
+footer div a {
+    text-decoration: none;
 }
 
