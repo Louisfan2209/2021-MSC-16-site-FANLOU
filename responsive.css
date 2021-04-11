@@ -62,27 +62,23 @@
        margin: 0% 0% 0% 10%;
         display: inline;
     }
-    body {
-        max-width: 600px;
+    .menunavigation {
+        padding: 0% 0% 0% 35%;
     }
 }
-/* Écrans moyens >= 481px */
+
 @media only screen and (min-width: 700px) {
     .reseausociaux {
         margin: 0% 0% 0% 20%;
         display: inline;
     }
-    body {
-        max-width: 850px;
-    }
+
 }
 @media only screen and (min-width: 1024px) {
     .reseausociaux {
         margin: 0% 0% 0% 25%;
         display: inline;
     }
-    body {
-        max-width: 1000px;
-    }
+
 
 }
