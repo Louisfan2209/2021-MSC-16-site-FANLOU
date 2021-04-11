@@ -34,34 +34,42 @@
         display: block;
         width: 100%;
     }
+
     .page_type .intro, .page_moteur .intromoteur {
         text-align: center;
         display: block;
     }
+
     .page_type footer div, .page_moteur footer div {
         display: block;
-        padding : 5% 0% 5% 0%;
+        padding: 5% 0% 5% 0%;
     }
+
     .page_type table {
         font-size: 25px;
     }
+
     .page_moteur ul li {
-        padding : 5% 0% 5% 0%;
+        padding: 5% 0% 5% 0%;
     }
+
     .page_lien .introlien {
         text-align: center;
         font-weight: bold;
     }
+
     .page_lien iframe {
         height: 100%;
         width: 75%;
         max-width: 300px;
         max-height: 200px;
     }
+
     .reseausociaux {
-       margin: 0% 0% 0% 10%;
+        margin: 0% 0% 0% 10%;
         display: inline;
     }
+
     .menunavigation {
         padding: 0% 0% 0% 35%;
     }
@@ -74,6 +82,7 @@
     }
 
 }
+
 @media only screen and (min-width: 1024px) {
     .reseausociaux {
         margin: 0% 0% 0% 25%;
